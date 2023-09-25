@@ -70,7 +70,9 @@ const (
 	AddColVindexStr     = "on table add vindex"
 	DropColVindexStr    = "on table drop vindex"
 	AddSequenceStr      = "add sequence"
+	DropSequenceStr     = "drop sequence"
 	AddAutoIncStr       = "add auto_increment"
+	DropAutoIncStr      = "drop auto_increment"
 
 	// ALTER TABLE ALGORITHM string.
 	DefaultStr = "default"
@@ -494,7 +496,9 @@ const (
 	AddColVindexDDLAction
 	DropColVindexDDLAction
 	AddSequenceDDLAction
+	DropSequenceDDLAction
 	AddAutoIncDDLAction
+	DropAutoIncDDLAction
 	RevertDDLAction
 )
 
