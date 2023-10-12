@@ -52,7 +52,8 @@ done
 # other Vitess components.)
 npm --prefix "$web_dir" --silent install
 
-REACT_APP_VTADMIN_API_ADDRESS="http://localhost:${vtadmin_api_port}" \
+REACT_APP_VTADMIN_API_ADDRESS="http://vtadmin.go2joy.vn" \
+  PORT=${vtadmin_web_port} \
   REACT_APP_ENABLE_EXPERIMENTAL_TABLET_DEBUG_VARS="true" \
   npm run --prefix "$web_dir" build
 
