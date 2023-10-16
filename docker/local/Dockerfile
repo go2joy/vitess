@@ -41,4 +41,4 @@ RUN npm install /web/vtadmin
 RUN mkdir /vt/common
 COPY examples/common /vt/common
 
-CMD cd /vt/local && ./101_initial_cluster.sh && /bin/bash
+#CMD cd /vt/local && ./101_initial_cluster.sh && /bin/bash
