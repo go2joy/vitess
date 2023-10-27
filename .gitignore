@@ -74,6 +74,7 @@ _test/
 
 # Local examples
 /examples/local/vtdataroot
+/examples/go2joy-sharded-keyspaces
 
 /dist/
 /vthook/
