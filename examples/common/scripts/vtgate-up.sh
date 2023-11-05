@@ -40,6 +40,7 @@ vtgate \
   --service_map 'grpc-vtgateservice' \
   --pid_file $VTDATAROOT/tmp/vtgate.pid \
   --mysql_auth_server_impl none \
+  --grpc_max_message_size 200000000 \
   > $VTDATAROOT/tmp/vtgate.out 2>&1 &
 
 # Block waiting for vtgate to be listening
